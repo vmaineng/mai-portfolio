@@ -1,6 +1,8 @@
-# Getting Started with Create React App
+# Mai's Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Thank you for stopping by! :) 
+
+My name is Mai and I am a Flatiron software engineer graduate. 
 
 ## Available Scripts
 

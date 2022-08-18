@@ -2,6 +2,20 @@
   text-align: center;
 }
 
+.btn {
+  cursor: pointer;
+  color: var(--white);
+  background: var(--primary-500);
+  border: transparent;
+  border-radius: var(--borderRadius);
+  letter-spacing: var(--letterSpacing);
+  padding: 0.375rem 0.75rem;
+  box-shadow: var(--shadow-1);
+  transition: var(--transition);
+  text-transform: capitalize;
+  display: inline-block;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
