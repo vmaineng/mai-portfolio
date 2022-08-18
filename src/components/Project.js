@@ -1,9 +1,9 @@
 import React from 'react'
 
-function Project() {
+function Project({project}) {
   return (
     <div>Projects
-        <h1> Tiny Task</h1>
+        <h1>{project.name} Tiny Task</h1>
 
     </div>
   )

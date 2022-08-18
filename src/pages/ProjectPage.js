@@ -1,10 +1,13 @@
 import React from 'react'
 import Project from '../components/Project';
 
-function ProjectPage() {
-  return (
-    <div>ProjectPage
-        <Project />
+function ProjectPage({projects}) {
+  const cards = projects.map(project => 
+    <Project key={project.id} {...project} />)
+
+     return (
+    <div>
+        {cards}
     </div>
   )
 }
