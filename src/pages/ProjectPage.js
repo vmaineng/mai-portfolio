@@ -1,9 +1,19 @@
-import React from 'react'
+import React, {useState, useEffect} from 'react'
 import Project from '../components/Project';
 
-function ProjectPage({projects}) {
-  const cards = projects.map(project => 
-    <Project key={project.id} {...project} />)
+function ProjectPage() {
+const [projects, setProjects] = useState([]);
+
+useEffect(() => {
+  fetch('http://localhost:4000/projects')
+  .then((r) => r.json())
+  .then(setProjects)
+}, []);
+
+
+
+  const cards = projects.map((project) => 
+    <Project key={project.id} project={project} />)
 
      return (
     <div>

@@ -1,5 +1,5 @@
 //import logo from './logo.svg';
-import React, { useState, useEffect } from "react";
+//import React, { useState, useEffect } from "react";
 import "../App.css";
 import Home from "./Home";
 import Navbar from "./Navbar";
@@ -9,13 +9,13 @@ import ProjectPage from "../pages/ProjectPage";
 import { Routes, Route } from "react-router-dom";
 
 function App() {
-  const [projects, setProjects] = useState([]);
+  // const [profile, projects, setProfile, setProjects] = useState([]);
 
-  useEffect(() => {
-    fetch("http://localhost:4000/projects")
-      .then(r => r.json())
-      .then(console.log(setProjects));
-  }, []);
+  // useEffect(() => {
+  //   fetch("http://localhost:4000/projects")
+  //     .then((r) => r.json())
+  //     .then(setProjects);
+  // }, []);
 
   return (
     <div className="App">
@@ -36,7 +36,7 @@ function App() {
           <Route path="/profile" element={<ProfilePage />} />
           <Route
             path="/projects"
-            element={<ProjectPage projects={projects} />}
+            element={<ProjectPage />}
           />
         </Routes>
         <h1>Welcome to Mai's portfolio website!</h1>
