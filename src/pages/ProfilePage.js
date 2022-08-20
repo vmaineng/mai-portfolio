@@ -12,7 +12,7 @@ useEffect(() => {
 }, [])
 
 const profileCard = profiles.map((profile) =>
-<Profile  profile={profile}/> )
+<Profile key={profile.id} profile={profile}/> )
 
   return (
     <div>ProfilePage
