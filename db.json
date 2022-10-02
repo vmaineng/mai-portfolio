@@ -21,7 +21,8 @@
     "profile": [
       {
         "id": 1,
-        "name": "Mai Neng Vang", 
+        "name": "Mai Neng Vang",
+        "location": "California",
         "image": "maybe",
         "description": "A front-end software engineer graduate",
        "LinkedIn": "https://www.linkedin.com/in/mai-vang-software-engineer/",

@@ -1,17 +1,14 @@
 import React from 'react'
+import ContactForm from './ContactForm';
 
 
 function Profile({profile}) {
   return (
     <div>Profile
 {profile.name}
- {profile.location}
- {profile.bio}
- {profile.skills}
-    <p> Contact me
-        <li>Github</li>
-        <li>Linkedin</li>
-    </p>
+{profile.location}
+
+    <ContactForm />
     </div>
   )
 }
