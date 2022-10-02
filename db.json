@@ -16,5 +16,16 @@
         "created": "React, Bootstrap, CSS, and JavaScript",
         "deployed": "Github"
       }
+    ],
+    "profile": [
+      {
+        "id": 1,
+        "name": "Mai Neng Vang", 
+        "image": "maybe",
+        "description": "A front-end software engineer graduate",
+       "LinkedIn": "https://www.linkedin.com/in/mai-vang-software-engineer/",
+       "GitHub": "https://github.com/vmaineng"
+      }
     ]
   }
+
