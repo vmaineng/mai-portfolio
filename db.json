@@ -6,7 +6,8 @@
         "image": "https://res.cloudinary.com/vmaineng/image/upload/v1660780825/tiny_m9ymqr.png",
         "description": 8,
         "created": "React, CSS, Chakra, and JavaScript",
-        "deployed": "Heroku"
+        "deployed": "Heroku",
+        "link": "https://tiny--task.herokuapp.com/"
       },
       {
         "id": 2,

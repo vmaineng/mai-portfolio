@@ -8,7 +8,7 @@ import {
   Stack,
   IconButton,
   Checkbox,
-  Spacer,
+  Link,
   Accordion,
   AccordionItem,
   AccordionButton,
@@ -37,7 +37,7 @@ function Project({ project }) {
               fontSize={"3xl"}
               letterSpacing={1.1}
             >
-              Project name: {project.name}
+               {project.name}
             </Text>
           </Stack>
           <Stack>
@@ -98,7 +98,14 @@ function Project({ project }) {
             fontSize={"sm"}
             letterSpacing={1.1}
           >
-            Project deployed: {project.deployed}
+            Project deployed: {project.deployed} 
+            </Text>
+            <Text 
+            color={"blue"}
+            textTransform={"uppercase"}
+            fontWeight={800}
+            fontSize={"sm"}>
+          <Link href={project.link}> Click here to see website</Link>
           </Text>
         </Box>
       </Center>
