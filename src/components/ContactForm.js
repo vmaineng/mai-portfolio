@@ -53,7 +53,7 @@ function ContactForm() {
 
     emailjs
       .sendForm(
-        "service_2itkqjv",
+        "service_5ahfxov",
         "template_rd8odvc",
         e.target,
         "0lDHd1ZLy0iOCA9pS"
