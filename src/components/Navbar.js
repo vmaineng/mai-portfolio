@@ -1,5 +1,5 @@
 import React from 'react'
-import {Link} from "react-router-dom";
+import {NavLink} from "react-router-dom";
 import { Box, Flex, HStack} from '@chakra-ui/react';
 
 function Navbar() {
@@ -9,13 +9,13 @@ function Navbar() {
       <HStack spacing={8} alignItems={'right'}>
         <Box>Mai's Portfolio</Box>
         <HStack as={'nav'} spacing={4} display={{ base: 'flex', md: 'flex' }}>
-        <Link to="/"> Home</Link>
+        <NavLink to="/" className='nav-link'> Home</NavLink>
         </HStack>
           <HStack as={'nav'} spacing={4} display={{ base: 'flex', md: 'flex' }}>
-        <Link to="/projects"> Projects</Link>
+        <NavLink to="/projects" className='nav-link'> Projects</NavLink>
         </HStack>
           <HStack as={'nav'} spacing={4} display={{ base: 'flex', md: 'flex' }}>
-        <Link to="/profile"> Profile</Link>
+        <NavLink to="/profile" className='nav-link'> Profile</NavLink>
         </HStack>
         </HStack>
       </Flex>

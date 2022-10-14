@@ -15,24 +15,24 @@ import {
   Stack,
   Textarea,
   Tooltip,
-  useClipboard,
+  // useClipboard,
   useColorModeValue,
   VStack,
 } from "@chakra-ui/react";
 import { BsGithub, BsLinkedin, BsPerson } from "react-icons/bs";
 import { MdEmail, MdOutlineEmail } from "react-icons/md";
 
-const confetti = {
-    light: {
-      primary: '4299E1', // blue.400
-      secondary: 'BEE3F8', // blue.100
-    },
+// const confetti = {
+//     light: {
+//       primary: '4299E1', // blue.400
+//       secondary: 'BEE3F8', // blue.100
+//     },
 
-    dark: {
-      primary: '1A365D', // blue.900
-      secondary: '2A4365', // blue.800
-    },
-  };
+//     dark: {
+//       primary: '1A365D', // blue.900
+//       secondary: '2A4365', // blue.800
+//     },
+//   };
 
 const Result = () => {
   return (
