@@ -15,7 +15,7 @@ import {
   Stack,
   Textarea,
   Tooltip,
-  // useClipboard,
+  useClipboard,
   useColorModeValue,
   VStack,
 } from "@chakra-ui/react";
