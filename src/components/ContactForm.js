@@ -25,17 +25,11 @@ const Result = () => {
 
 function ContactForm() {
   const [result, showResult] = useState(false);
-
   const sendEmail = (e) => {
     e.preventDefault();
 
     emailjs
-      .sendForm(
-        "gmail",
-        "template_rd8odvc",
-        e.target,
-        "0lDHd1ZLy0iOCA9pS"
-      )
+      .sendForm("gmail", "template_rd8odvc", e.target, "0lDHd1ZLy0iOCA9pS")
       .then(
         (result) => {
           console.log(result.text);
@@ -48,11 +42,13 @@ function ContactForm() {
     showResult(true);
   };
 
+  setTimeout(() => {showResult(false);}, 5000);
+
   return (
     <div>
-      {/* <form action="" onSubmit={sendEmail}>
+      <form action="" onSubmit={sendEmail}>
         <Flex
-          bg={useColorModeValue("gray.100", "gray.900")}
+          // bg={useColorModeValue("gray.100", "gray.900")}
           align="center"
           justify="center"
           id="contact"
@@ -67,17 +63,17 @@ function ContactForm() {
                 <Heading
                   fontSize={{
                     base: "4xl",
-                    md: "5xl",
+                    md: "1rem",
                   }}
                 >
-                  Get in Touch
+                  Get in touch with me! 
                 </Heading>
 
                 <Box
-                  bg={useColorModeValue("white", "gray.700")}
+                  bg={useColorModeValue("orange.50", "yellow.600")}
                   borderRadius="lg"
-                  p={8}
-                  color={useColorModeValue("gray.700", "whiteAlpha.900")}
+                  p={20}
+                  color={useColorModeValue("yellow.600", "whiteAlpha.900")}
                   shadow="base"
                 >
                   <VStack spacing={5}>
@@ -90,6 +86,7 @@ function ContactForm() {
                           type="text"
                           name="fullName"
                           placeholder="Your Name"
+                          required
                         />
                       </InputGroup>
                     </FormControl>
@@ -113,21 +110,12 @@ function ContactForm() {
                       <Textarea
                         name="message"
                         placeholder="Your Message"
-                        rows={6}
+                        rows={10}
                         resize="none"
+                        required
                       />
                     </FormControl>
-
-                    <Button
-                      colorScheme="blue"
-                      bg="blue.400"
-                      color="white"
-                      _hover={{
-                        bg: "blue.500",
-                      }}
-                    >
-                      Send Message
-                    </Button>
+                    <button id="submit"> Send message</button>
                     {result ? <Result /> : null}
                   </VStack>
                 </Box>
@@ -135,29 +123,6 @@ function ContactForm() {
             </Box>
           </Box>
         </Flex>
-      </form> */}
-
-      <form action="" onSubmit={sendEmail}>
-        <h2> Ask us a question</h2>
-        <span> Full Name</span>
-        <br />
-        <input className="input100" type="text" name="fullName" required />
-        <br />
-        <span> Phone Number</span>
-        <br />
-        <input className="input100" type="text" name="phone" required />
-        <br />
-        <span>Enter Email</span>
-        <br />
-        <input className="input100" type="text" name="email" required />
-      <br /> 
-      <span> Message</span>
-      <br />
-      <textarea name="message" required></textarea>
-      <br />
-    <Button> Submit</Button>
-{result ? <Result /> : null }
-
       </form>
     </div>
   );
