@@ -68,3 +68,17 @@
   border-bottom: solid 2.5px #0E1333;
   /* padding-bottom: 1rem; */
 }
+
+.intro{
+  margin-top: 0;
+  padding: 260px 0 100px 0;
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#submit{
+  background-color: lightblue;
+  font-size: 24px;
+  border-radius: 10%;
+}

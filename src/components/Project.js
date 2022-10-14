@@ -1,13 +1,12 @@
 import React from "react";
 import { Image } from "cloudinary-react";
+import { motion} from "framer-motion";
+
 import {
   Box,
   Center,
-  // Heading,
   Text,
   Stack,
-  // IconButton,
-  // Checkbox,
   Link,
   Accordion,
   AccordionItem,
@@ -17,8 +16,11 @@ import {
 } from "@chakra-ui/react";
 
 function Project({ project }) {
+
+
   return (
     <>
+
       <Center py={6}>
         <Box
           maxW={"500px"}
