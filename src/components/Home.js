@@ -1,7 +1,6 @@
 import React from 'react'
 import {
   Box,
-  Textarea,
   Text,
 } from "@chakra-ui/react";
  import { Image } from "cloudinary-react";
@@ -16,8 +15,8 @@ function Home() {
       <Text>
         Hello! My name is Mai!  Front-end Software Engineer
       </Text>
-      <Textarea className="rotate"> About Me: 
-      I graduate from Flatiron School, a full-stack web development program in August 2022.</Textarea>
+      <Text className="rotate"> About Me: 
+      I graduate from Flatiron School, a full-stack web development program in August 2022.</Text>
       
         <Image
         cloudName="v1660870107"

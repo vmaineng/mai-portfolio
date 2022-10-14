@@ -6,7 +6,7 @@ function ContactPage() {
 const [contacts, setContact] = useState([]);
 
 useEffect(() => {
-  fetch('http://localhost:4000/profile')
+  fetch('http://localhost:4000/contact')
   .then(r => r.json())
   .then(setContact)
 }, [])
