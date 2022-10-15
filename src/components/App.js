@@ -3,8 +3,7 @@ import Home from "./Home";
 import Navbar from "./Navbar";
 import ContactPage from "../pages/ContactPage";
 import ProjectPage from "../pages/ProjectPage";
-import { Routes, Route } from "react-router-dom";
-// import { Text } from '@chakra-ui/react'
+//import { Routes, Route } from "react-router-dom";
 
 function App() {
 
@@ -13,14 +12,18 @@ function App() {
   
         <Navbar />
       
-        <Routes>
+<Home />
+<ProjectPage />
+<ContactPage />
+
+        {/* <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/contact" element={<ContactPage />} />
           <Route
             path="/projects"
             element={<ProjectPage />}
           />
-        </Routes>
+        </Routes> */}
       
      
     </div>

@@ -10,9 +10,12 @@ import {   Breadcrumb,
  } from '@chakra-ui/react';
 import { GoMarkGithub} from 'react-icons/go';
 import {GrLinkedin} from 'react-icons/gr';
+import {BrowserRouter as Router } from 'react-router-dom';
+
 
 function Navbar() {
   return (
+    <Router>
     <Breadcrumb bg='#8a663f' px={4}>
     <Flex h={16} align={'center'} justify={'space-between'}>
       <HStack spacing={8} alignItems={'right'}>
@@ -34,6 +37,7 @@ function Navbar() {
         
       </Flex>
     </Breadcrumb>
+    </Router>
   )
 }
 
