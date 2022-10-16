@@ -5,7 +5,7 @@ Thank you for stopping by! :)
 
 My name is Mai and I am a software engineer. This website illustrates my portfolio work. 
 
-###Screenshot
+### Screenshot
 
 
 Desktop view:
