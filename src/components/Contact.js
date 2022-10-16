@@ -2,15 +2,14 @@ import React from 'react'
 import ContactForm from './ContactForm';
 
 
-function Profile({profile}) {
+function Contact() {
   return (
-    <div>Profile
-{profile.name}
-{profile.location}
+    <div>
+
 
     <ContactForm />
     </div>
   )
 }
 
-export default Profile
+export default Contact

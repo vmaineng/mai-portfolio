@@ -43,4 +43,29 @@
   color: #61dafb;
 }
 
+.nav-link {
+  text-decoration: none;
+  background-color: white;
+  color: #0E1333;
+  font-family: 'Gilroy-ExtraBold';
+  font-size: 18px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding-left: 25px;
+  padding-right: 25px;
+}
 
+.nav-link:hover, .active:hover {
+  background-color: #0E1333;
+  color: #fff;
+}
+
+
+#submit{
+  background-color: lightblue;
+  font-size: 24px;
+  border-radius: 10%;
+}

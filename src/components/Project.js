@@ -3,11 +3,8 @@ import { Image } from "cloudinary-react";
 import {
   Box,
   Center,
-  Heading,
   Text,
   Stack,
-  IconButton,
-  Checkbox,
   Link,
   Accordion,
   AccordionItem,
@@ -51,11 +48,12 @@ function Project({ project }) {
               Created with: {project.created}
             </Text>
           </Stack>
-          <Image
+          <Image cloudName="v1660780825" publicId="{project.image}"/>
+          {/* <Image
             style={{ width: 200 }}
             cloudName="v1660780825"
             publicId="https://res.cloudinary.com/vmaineng/image/upload/v1660780825/tiny_m9ymqr.png"
-          />
+          /> */}
           <Stack direction={"column"} fontSize={"sm"}>
             <Accordion allowToggle>
               <AccordionItem>

@@ -1,33 +1,42 @@
 {
-    "projects": [
-      {
-        "id": 1,
-        "name": "Tiny Task",
-        "image": "https://res.cloudinary.com/vmaineng/image/upload/v1660780825/tiny_m9ymqr.png",
-        "description": 8,
-        "created": "React, CSS, Chakra, and JavaScript",
-        "deployed": "Heroku",
-        "link": "https://tiny--task.herokuapp.com/"
-      },
-      {
-        "id": 2,
-        "name": "Immerse",
-        "image": "http://www.pngmart.com/files/6/Buzz-Lightyear-PNG-Transparent-Picture.png",
-        "description": 8,
-        "created": "React, Bootstrap, CSS, and JavaScript",
-        "deployed": "Github"
-      }
-    ],
-    "profile": [
-      {
-        "id": 1,
-        "name": "Mai Neng Vang",
-        "location": "California",
-        "image": "maybe",
-        "description": "A front-end software engineer graduate",
-       "LinkedIn": "https://www.linkedin.com/in/mai-vang-software-engineer/",
-       "GitHub": "https://github.com/vmaineng"
-      }
-    ]
-  }
-
+  "projects": [
+    {
+      "id": 1,
+      "name": "Tiny Task",
+      "image": "https://res.cloudinary.com/vmaineng/image/upload/v1660780825/tiny_m9ymqr.png",
+      "description": "The app is a kids planning activities app for parents to discover an activity at their leisure. ",
+      "created": "React, CSS, Chakra, and JavaScript",
+      "deployed": "Heroku",
+      "link": "https://tiny--task.herokuapp.com/"
+    },
+    {
+      "id": 2,
+      "name": "Immerse",
+      "image": "https://res.cloudinary.com/vmaineng/image/upload/v1660780833/home_kmcvf4.png",
+      "description": "This application allows users to book, rate, and save vacation packages. In addition, they can send a contact form to us for their questions, comments, and concerns and we will receive it via e-mail therefore we know who to notify.",
+      "created": "React, Bootstrap, CSS, and JavaScript",
+      "deployed": "Github",
+      "link": "https://github.com/vmaineng/Immerse"
+    },
+    {
+      "id": 3,
+      "name": "Shotkallar715 Playlist",
+      "image": "https://res.cloudinary.com/vmaineng/image/upload/v1665788792/icon_hmmbyb.png",
+      "description": "A music playlist using JavaScript, CSS, and HTML for a local artist where a user can forward, skip to a certain time for their favorite verse, or refer back to the previous song.",
+      "created": "HTML, CSS, and JavaScript",
+      "deployed": "Vercel",
+      "link": "https://playlist-ten.vercel.app/"
+    }
+  ],
+  "profile": [
+    {
+      "id": 1,
+      "name": "Mai Neng Vang",
+      "location": "California",
+      "image": "maybe",
+      "description": "A front-end software engineer graduate",
+      "LinkedIn": "https://www.linkedin.com/in/mai-vang-software-engineer/",
+      "GitHub": "https://github.com/vmaineng"
+    }
+  ]
+}
