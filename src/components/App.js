@@ -14,7 +14,7 @@ function App() {
     <div className="App">
   
         <Navbar />
-        <Text fontSize='6xl'>Welcome to Mai's portfolio website!</Text>
+        <Text fontSize='6xl' color="#DAA06D">Welcome to Mai's portfolio website!</Text>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/contact" element={<Contact />} />

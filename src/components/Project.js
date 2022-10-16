@@ -24,7 +24,7 @@ function Project({ project }) {
           rounded={"md"}
           p={6}
           overflow={"hidden"}
-          bg={"#CBD5E0"}
+          bg={"#EADDCA"}
         >
           <Stack>
             <Text
@@ -48,12 +48,7 @@ function Project({ project }) {
               Created with: {project.created}
             </Text>
           </Stack>
-          <Image cloudName="v1660780825" publicId="{project.image}"/>
-          {/* <Image
-            style={{ width: 200 }}
-            cloudName="v1660780825"
-            publicId="https://res.cloudinary.com/vmaineng/image/upload/v1660780825/tiny_m9ymqr.png"
-          /> */}
+          <Image src={project.image} mt={-6} mx={-6} mb={6}/>
           <Stack direction={"column"} fontSize={"sm"}>
             <Accordion allowToggle>
               <AccordionItem>

@@ -47,22 +47,20 @@ function ContactForm() {
     <div>
       <form action="" onSubmit={sendEmail}>
         <Flex
-          // bg={useColorModeValue("gray.100", "gray.900")}
           align="center"
           justify="center"
           id="contact"
         >
           <Box
             borderRadius="lg"
-            m={{ base: 5, md: 16, lg: 10 }}
-            p={{ base: 5, lg: 16 }}
+            m={{ base: 2, md: 5}}
+            p={{ base: 2}}
           >
             <Box>
-              <VStack spacing={{ base: 4, md: 8, lg: 20 }}>
+              <VStack spacing={{ base: 4, md: 8, lg:10}}>
                 <Heading
                   fontSize={{
                     base: "4xl",
-                    md: "1rem",
                   }}
                 >
                   Get in touch with me! 
