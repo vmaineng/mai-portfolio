@@ -6,6 +6,8 @@ Thank you for stopping by! :)
 My name is Mai and I am a software engineer. This website illustrates my portfolio work. 
 
 ###Screenshot
+
+
 Desktop view:
 <img width="1681" alt="Screen Shot 2022-10-15 at 7 31 16 PM" src="https://user-images.githubusercontent.com/100221733/196015133-29c63e00-f631-4ef8-8447-1fe0f4b70c4a.png">
 
